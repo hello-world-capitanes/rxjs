@@ -19,6 +19,7 @@ import { TapOperatorComponent } from './components/operators/tap-operator/tap-op
 import { MapOperatorComponent } from './components/operators/transformation/map-operator/map-operator.component';
 import { SharedModule } from './shared/shared.module';
 import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
+import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
 
 
 
@@ -36,6 +37,7 @@ import { MapToOperatorComponent } from './components/operators/transformation/ma
     EmptyOperatorComponent,
     FromEventOperatorComponent,
     MapToOperatorComponent,
+    BufferOperatorComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+<h1>buffer</h1>
+<mat-divider></mat-divider>
+<h2>Operation buffer</h2>
+<h3>Buffer values until click</h3>
+<mat-divider></mat-divider>
+  <app-init-button (onClickButton)="onClickButton()"></app-init-button>
+<mat-divider></mat-divider>
+
+<div class="compare">
+  <div>
+    <h2>Observable emits data</h2>
+    <ng-container *ngFor="let value of initialData">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+
+  <div>
+    <h2>Observer recives data</h2>
+    <ng-container *ngFor="let value of data">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+</div>
+
