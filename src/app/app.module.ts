@@ -23,6 +23,7 @@ import { BufferOperatorComponent } from './components/operators/transformation/b
 import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
 import { MergeMapOperatorComponent } from './components/operators/transformation/merge-map-operator/merge-map-operator.component';
 import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
+import { ScanOperatorComponent } from './components/operators/transformation/scan-operator/scan-operator.component';
 
 
 
@@ -44,6 +45,7 @@ import { SwitchMapOperatorComponent } from './components/operators/transformatio
     ConcatMapOperatorComponent,
     MergeMapOperatorComponent,
     SwitchMapOperatorComponent,
+    ScanOperatorComponent,
   ],
   imports: [
     BrowserModule,

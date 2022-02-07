@@ -13,6 +13,7 @@ import { ConcatMapOperatorComponent } from './components/operators/transformatio
 import { MapOperatorComponent } from './components/operators/transformation/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
 import { MergeMapOperatorComponent } from './components/operators/transformation/merge-map-operator/merge-map-operator.component';
+import { ScanOperatorComponent } from './components/operators/transformation/scan-operator/scan-operator.component';
 import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
 
 
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'concatMap', component: ConcatMapOperatorComponent },
   { path: 'mergeMap', component: MergeMapOperatorComponent },
   { path: 'switchMap', component: SwitchMapOperatorComponent },
+  { path: 'scan', component: ScanOperatorComponent },
 
 
   { path: 'filter', component: FilterOperatorComponent },
