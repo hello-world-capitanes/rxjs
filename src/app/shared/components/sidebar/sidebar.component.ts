@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from '../../models/menu-item';
+import { SectionItem } from '../../models/section-item';
 import { MenuService } from '../../services/menu.service';
 
 @Component({
@@ -9,12 +9,14 @@ import { MenuService } from '../../services/menu.service';
 })
 export class SidebarComponent implements OnInit {
 
-  menu: MenuItem[];
+
+  sections: SectionItem[];
 
   constructor(
     private menuService: MenuService,
   ) {
-    this.menu = this.menuService.menu;
+
+    this.sections = this.menuService.sections;
   }
 
   ngOnInit(): void {

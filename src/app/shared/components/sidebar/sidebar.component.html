@@ -1,8 +1,15 @@
-<mat-selection-list [multiple]="false">
-    <mat-list-option disabled>
-        Operators
-    </mat-list-option>
-    <mat-list-option [routerLink]="menu_item?.route" routerLinkActive="active" *ngFor="let menu_item of menu">
+
+
+
+<mat-expansion-panel *ngFor="let section of sections">
+  <mat-expansion-panel-header style="display:flex" class="mat-row">
+    {{section.name}}
+  </mat-expansion-panel-header>
+
+  <mat-selection-list [multiple]="false">
+
+    <mat-list-option [routerLink]="menu_item?.route" routerLinkActive="active" *ngFor="let menu_item of section.menuItems">
       {{ menu_item?.name }}
     </mat-list-option>
-</mat-selection-list>
+  </mat-selection-list>
+</mat-expansion-panel>

@@ -18,6 +18,7 @@ import { MapOperatorComponent } from './components/operators/map-operator/map-op
 import { FilterOperatorComponent } from './components/operators/filter-operator/filter-operator.component';
 import { DistinctOperatorComponent } from './components/operators/distinct-operator/distinct-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
+import { OfOperatorComponent } from './components/operators/creational/of-operator/of-operator.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { TapOperatorComponent } from './components/operators/tap-operator/tap-op
     FilterOperatorComponent,
     DistinctOperatorComponent,
     TapOperatorComponent,
+    OfOperatorComponent,
   ],
   imports: [
     BrowserModule,
