@@ -9,6 +9,7 @@ import { DistinctOperatorComponent } from './components/operators/distinct-opera
 import { FilterOperatorComponent } from './components/operators/filter-operator/filter-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
 import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
+import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
 import { MapOperatorComponent } from './components/operators/transformation/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
 
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'map', component: MapOperatorComponent },
   { path: 'mapTo', component: MapToOperatorComponent },
   { path: 'buffer', component: BufferOperatorComponent },
+  { path: 'concatMap', component: ConcatMapOperatorComponent },
   { path: 'filter', component: FilterOperatorComponent },
   { path: 'distinct', component: DistinctOperatorComponent },
   { path: 'tap', component: TapOperatorComponent }

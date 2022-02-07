@@ -20,6 +20,7 @@ import { MapOperatorComponent } from './components/operators/transformation/map-
 import { SharedModule } from './shared/shared.module';
 import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
 import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
+import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
 
 
 
@@ -38,6 +39,7 @@ import { BufferOperatorComponent } from './components/operators/transformation/b
     FromEventOperatorComponent,
     MapToOperatorComponent,
     BufferOperatorComponent,
+    ConcatMapOperatorComponent,
   ],
   imports: [
     BrowserModule,

@@ -33,7 +33,5 @@ export class BufferOperatorComponent implements OnInit {
     emitASecuencialNumberEverySecond.pipe(buffer(clicks)).subscribe(data => {
       this.data = data;
     })
-
-
   }
 }
