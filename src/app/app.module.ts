@@ -24,6 +24,7 @@ import { ConcatMapOperatorComponent } from './components/operators/transformatio
 import { MergeMapOperatorComponent } from './components/operators/transformation/merge-map-operator/merge-map-operator.component';
 import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
 import { ScanOperatorComponent } from './components/operators/transformation/scan-operator/scan-operator.component';
+import { PluckOperatorComponent } from './components/operators/transformation/pluck-operator/pluck-operator.component';
 
 
 
@@ -46,6 +47,7 @@ import { ScanOperatorComponent } from './components/operators/transformation/sca
     MergeMapOperatorComponent,
     SwitchMapOperatorComponent,
     ScanOperatorComponent,
+    PluckOperatorComponent,
   ],
   imports: [
     BrowserModule,
