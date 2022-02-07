@@ -7,8 +7,9 @@ import { FromOperatorComponent } from './components/operators/creational/from-op
 import { OfOperatorComponent } from './components/operators/creational/of-operator/of-operator.component';
 import { DistinctOperatorComponent } from './components/operators/distinct-operator/distinct-operator.component';
 import { FilterOperatorComponent } from './components/operators/filter-operator/filter-operator.component';
-import { MapOperatorComponent } from './components/operators/map-operator/map-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
+import { MapOperatorComponent } from './components/operators/transformation/map-operator/map-operator.component';
+import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'of', component: OfOperatorComponent },
   { path: 'empty', component: EmptyOperatorComponent },
   { path: 'map', component: MapOperatorComponent },
+  { path: 'mapTo', component: MapToOperatorComponent },
   { path: 'filter', component: FilterOperatorComponent },
   { path: 'distinct', component: DistinctOperatorComponent },
   { path: 'tap', component: TapOperatorComponent }

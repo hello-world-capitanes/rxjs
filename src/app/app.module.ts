@@ -15,9 +15,10 @@ import { FromOperatorComponent } from './components/operators/creational/from-op
 import { OfOperatorComponent } from './components/operators/creational/of-operator/of-operator.component';
 import { DistinctOperatorComponent } from './components/operators/distinct-operator/distinct-operator.component';
 import { FilterOperatorComponent } from './components/operators/filter-operator/filter-operator.component';
-import { MapOperatorComponent } from './components/operators/map-operator/map-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
+import { MapOperatorComponent } from './components/operators/transformation/map-operator/map-operator.component';
 import { SharedModule } from './shared/shared.module';
+import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
 
 
 
@@ -34,6 +35,7 @@ import { SharedModule } from './shared/shared.module';
     OfOperatorComponent,
     EmptyOperatorComponent,
     FromEventOperatorComponent,
+    MapToOperatorComponent,
   ],
   imports: [
     BrowserModule,
