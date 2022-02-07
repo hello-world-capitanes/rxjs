@@ -19,6 +19,8 @@ import { FilterOperatorComponent } from './components/operators/filter-operator/
 import { DistinctOperatorComponent } from './components/operators/distinct-operator/distinct-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
 import { OfOperatorComponent } from './components/operators/creational/of-operator/of-operator.component';
+import { EmptyOperatorComponent } from './components/operators/creational/empty-operator/empty-operator.component';
+import { FromEventOperatorComponent } from './components/operators/creational/from-event-operator/from-event-operator.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { OfOperatorComponent } from './components/operators/creational/of-operat
     DistinctOperatorComponent,
     TapOperatorComponent,
     OfOperatorComponent,
+    EmptyOperatorComponent,
+    FromEventOperatorComponent,
   ],
   imports: [
     BrowserModule,

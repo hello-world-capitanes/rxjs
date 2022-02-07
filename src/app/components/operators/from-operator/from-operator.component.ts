@@ -7,17 +7,27 @@ import { from } from 'rxjs';
   styleUrls: ['./from-operator.component.scss']
 })
 export class FromOperatorComponent implements OnInit {
+  initialData = [1, 2, 3, 4]
+  stream$ = from(this.initialData)
+  data: number[] = []
 
-  initialData = [1,2,3,4];
-  stream$ = from(this.initialData);
-  data: number[] = [];
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    this.stream$.subscribe(data => {
-      this.data.push(data);
-    });
+    this.subscribeData()
   }
 
+  onClickButton() {
+    this.data = []
+    this.subscribeData();
+  }
+
+  subscribeData() {
+    this.stream$.subscribe((data) => {
+      // this.data.push(data) Aquí se puede ver que angular no detecta el cambio
+      setTimeout(()=>{
+          this.data = [...this.data, data];
+        }, (data * 1000));
+    });
+  }
 }
