@@ -1,0 +1,28 @@
+<h1>map operator</h1>
+<mat-divider></mat-divider>
+
+<h2 class="exercises-title">Multiply</h2>
+<h2>Initial data</h2>
+<ng-container *ngFor="let value of initialDataMultiply">
+    <h3>{{ value }}</h3>
+</ng-container>
+<h2>Operation</h2>
+<h3>value = 2 * value</h3>
+<h2>Observable data</h2>
+<ng-container *ngFor="let value of dataMultiply">
+    <h3>{{ value }}</h3>
+</ng-container>
+
+<mat-divider></mat-divider>
+
+<h2 class="exercises-title">Filter attributes</h2>
+<h2>Initial data</h2>
+<ng-container *ngFor="let value of initialDataPeople">
+    <h3>{{ value | json }}</h3>
+</ng-container>
+<h2>Operation</h2>
+<h3>Get only name from people</h3>
+<h2>Observable data</h2>
+<ng-container *ngFor="let value of dataPeople">
+    <h3>{{ value }}</h3>
+</ng-container>

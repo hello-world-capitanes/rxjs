@@ -1,0 +1,8 @@
+<mat-selection-list [multiple]="false">
+    <mat-list-option disabled>
+        Operators
+    </mat-list-option>
+    <mat-list-option [routerLink]="menu_item?.route" routerLinkActive="active" *ngFor="let menu_item of menu">
+      {{ menu_item?.name }}
+    </mat-list-option>
+</mat-selection-list>

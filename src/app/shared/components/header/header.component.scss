@@ -1,0 +1,15 @@
+.header {
+    background-color: #dddddd;
+    .logo-button {
+        font-size: 18px;
+        &:hover {
+            background-color: transparent;
+        }
+        &:active {
+            background-color: transparent;
+        }
+    }
+    .spacer {
+        flex: 1 1 auto;
+    }
+}
