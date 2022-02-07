@@ -12,6 +12,8 @@ import { BufferOperatorComponent } from './components/operators/transformation/b
 import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
 import { MapOperatorComponent } from './components/operators/transformation/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
+import { MergeMapOperatorComponent } from './components/operators/transformation/merge-map-operator/merge-map-operator.component';
+import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
 
 
 const routes: Routes = [
@@ -20,10 +22,15 @@ const routes: Routes = [
   { path: 'fromEvent', component: FromEventOperatorComponent },
   { path: 'of', component: OfOperatorComponent },
   { path: 'empty', component: EmptyOperatorComponent },
+
   { path: 'map', component: MapOperatorComponent },
   { path: 'mapTo', component: MapToOperatorComponent },
   { path: 'buffer', component: BufferOperatorComponent },
   { path: 'concatMap', component: ConcatMapOperatorComponent },
+  { path: 'mergeMap', component: MergeMapOperatorComponent },
+  { path: 'switchMap', component: SwitchMapOperatorComponent },
+
+
   { path: 'filter', component: FilterOperatorComponent },
   { path: 'distinct', component: DistinctOperatorComponent },
   { path: 'tap', component: TapOperatorComponent }

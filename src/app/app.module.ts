@@ -21,6 +21,8 @@ import { SharedModule } from './shared/shared.module';
 import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
 import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
 import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
+import { MergeMapOperatorComponent } from './components/operators/transformation/merge-map-operator/merge-map-operator.component';
+import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
 
 
 
@@ -40,6 +42,8 @@ import { ConcatMapOperatorComponent } from './components/operators/transformatio
     MapToOperatorComponent,
     BufferOperatorComponent,
     ConcatMapOperatorComponent,
+    MergeMapOperatorComponent,
+    SwitchMapOperatorComponent,
   ],
   imports: [
     BrowserModule,
