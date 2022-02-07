@@ -17,6 +17,7 @@ export class MenuService {
     const creacionales = [
       new MenuItem('of',         '/of'),
       new MenuItem('from',       '/from'),
+      new MenuItem('fromEvent',      '/fromEvent'),
       new MenuItem('EMPTY',      '/empty'),
       new MenuItem('defer',      '/defer'),
       new MenuItem('throwError', '/throwError'),

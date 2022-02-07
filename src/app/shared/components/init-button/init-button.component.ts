@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 
 @Component({
@@ -7,16 +7,15 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./init-button.component.scss']
 })
 export class InitButtonComponent implements OnInit {
+  @Input() tittle = 'Reiniciar emisión';
 
-  @Output() onClickButton: EventEmitter<void> = new EventEmitter();
+  @Output() onClickButton: EventEmitter<void> = new EventEmitter()
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   onClick() {
-    this.onClickButton.emit();
+    this.onClickButton.emit()
   }
-
 }
