@@ -5,8 +5,8 @@ import { EmptyOperatorComponent } from './components/operators/creational/empty-
 import { FromEventOperatorComponent } from './components/operators/creational/from-event-operator/from-event-operator.component';
 import { FromOperatorComponent } from './components/operators/creational/from-operator/from-operator.component';
 import { OfOperatorComponent } from './components/operators/creational/of-operator/of-operator.component';
-import { DistinctOperatorComponent } from './components/operators/distinct-operator/distinct-operator.component';
-import { FilterOperatorComponent } from './components/operators/filter-operator/filter-operator.component';
+import { DistinctOperatorComponent } from './components/operators/filtering/distinct-operator/distinct-operator.component';
+import { FilterOperatorComponent } from './components/operators/filtering/filter-operator/filter-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
 import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
 import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
