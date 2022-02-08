@@ -28,6 +28,7 @@ import { PluckOperatorComponent } from './components/operators/transformation/pl
 import { ScanOperatorComponent } from './components/operators/transformation/scan-operator/scan-operator.component';
 import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
 import { SharedModule } from './shared/shared.module';
+import { FirstOperatorComponent } from './components/operators/filtering/first-operator/first-operator.component';
 
 
 
@@ -52,6 +53,7 @@ import { SharedModule } from './shared/shared.module';
     ScanOperatorComponent,
     PluckOperatorComponent,
     DebounceTimeOperatorComponent,
+    FirstOperatorComponent,
   ],
   imports: [
     BrowserModule,
