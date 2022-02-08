@@ -31,6 +31,7 @@ import { SharedModule } from './shared/shared.module';
 import { FirstOperatorComponent } from './components/operators/filtering/first-operator/first-operator.component';
 import { LastOperatorComponent } from './components/operators/filtering/last-operator/last-operator.component';
 import { TakeOperatorComponent } from './components/operators/filtering/take-operator/take-operator.component';
+import { ThrottleTimeOperatorComponent } from './components/operators/filtering/throttle-time-operator/throttle-time-operator.component';
 
 
 
@@ -58,6 +59,7 @@ import { TakeOperatorComponent } from './components/operators/filtering/take-ope
     FirstOperatorComponent,
     LastOperatorComponent,
     TakeOperatorComponent,
+    ThrottleTimeOperatorComponent,
   ],
   imports: [
     BrowserModule,

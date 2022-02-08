@@ -11,6 +11,7 @@ import { FilterOperatorComponent } from './components/operators/filtering/filter
 import { FirstOperatorComponent } from './components/operators/filtering/first-operator/first-operator.component';
 import { LastOperatorComponent } from './components/operators/filtering/last-operator/last-operator.component';
 import { TakeOperatorComponent } from './components/operators/filtering/take-operator/take-operator.component';
+import { ThrottleTimeOperatorComponent } from './components/operators/filtering/throttle-time-operator/throttle-time-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
 import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
 import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
@@ -38,15 +39,13 @@ const routes: Routes = [
   { path: 'scan', component: ScanOperatorComponent },
   { path: 'pluck', component: PluckOperatorComponent },
 
-
   { path: 'filter', component: FilterOperatorComponent },
   { path: 'debounceTime', component: DebounceTimeOperatorComponent },
   { path: 'distinct', component: DistinctOperatorComponent },
   { path: 'first', component: FirstOperatorComponent },
   { path: 'last', component: LastOperatorComponent },
   { path: 'take', component: TakeOperatorComponent },
-
-
+  { path: 'throttleTime', component: ThrottleTimeOperatorComponent },
 
   { path: 'tap', component: TapOperatorComponent }
 ]
