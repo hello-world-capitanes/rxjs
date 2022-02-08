@@ -51,7 +51,6 @@ export class MenuService {
       new MenuItem('forkJoin', '/forkJoin'),
       new MenuItem('merge', '/merge'),
       new MenuItem('mergeAll', '/mergeAll'),
-      new MenuItem('partition', '/partition'),
       new MenuItem('switchAll', '/switchAll'),
       new MenuItem('race', '/race'),
 

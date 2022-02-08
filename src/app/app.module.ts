@@ -38,6 +38,7 @@ import { CombineLatestOperatorComponent } from './components/operators/combinati
 import { ForkOperatorComponent } from './components/operators/combination/fork-operator/fork-operator.component';
 import { MergeOperatorComponent } from './components/operators/combination/merge-operator/merge-operator.component';
 import { MergeAllOperatorComponent } from './components/operators/combination/merge-all-operator/merge-all-operator.component';
+import { SwitchAllOperatorComponent } from './components/operators/combination/switch-all-operator/switch-all-operator.component';
 
 
 
@@ -72,6 +73,7 @@ import { MergeAllOperatorComponent } from './components/operators/combination/me
     ForkOperatorComponent,
     MergeOperatorComponent,
     MergeAllOperatorComponent,
+    SwitchAllOperatorComponent,
   ],
   imports: [
     BrowserModule,
