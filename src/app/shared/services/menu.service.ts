@@ -52,10 +52,6 @@ export class MenuService {
       new MenuItem('merge', '/merge'),
       new MenuItem('mergeAll', '/mergeAll'),
       new MenuItem('switchAll', '/switchAll'),
-      new MenuItem('race', '/race'),
-
-      new MenuItem('zip', '/zip'),
-      new MenuItem('withLatestFrom', '/withLatestFrom')
     ]
     const gestionErrores = [new MenuItem('catchError', '/catchError')];
     const difusion = [new MenuItem('multicast', '/multicast')];
