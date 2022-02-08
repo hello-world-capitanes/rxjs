@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { ConcatOperatorComponent } from './components/operators/combination/concat-operator/concat-operator.component';
 import { EmptyOperatorComponent } from './components/operators/creational/empty-operator/empty-operator.component';
 import { FromEventOperatorComponent } from './components/operators/creational/from-event-operator/from-event-operator.component';
 import { FromOperatorComponent } from './components/operators/creational/from-operator/from-operator.component';
@@ -46,6 +47,8 @@ const routes: Routes = [
   { path: 'last', component: LastOperatorComponent },
   { path: 'take', component: TakeOperatorComponent },
   { path: 'throttleTime', component: ThrottleTimeOperatorComponent },
+
+  { path: 'concat', component: ConcatOperatorComponent },
 
   { path: 'tap', component: TapOperatorComponent }
 ]
