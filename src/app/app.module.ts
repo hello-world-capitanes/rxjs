@@ -29,6 +29,7 @@ import { ScanOperatorComponent } from './components/operators/transformation/sca
 import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
 import { SharedModule } from './shared/shared.module';
 import { FirstOperatorComponent } from './components/operators/filtering/first-operator/first-operator.component';
+import { LastOperatorComponent } from './components/operators/filtering/last-operator/last-operator.component';
 
 
 
@@ -54,6 +55,7 @@ import { FirstOperatorComponent } from './components/operators/filtering/first-o
     PluckOperatorComponent,
     DebounceTimeOperatorComponent,
     FirstOperatorComponent,
+    LastOperatorComponent,
   ],
   imports: [
     BrowserModule,

@@ -33,8 +33,5 @@ export class FirstOperatorComponent implements OnInit {
     this.data = []
     this.formControl.reset()
   }
-
-
-
 }
 

@@ -1,0 +1,23 @@
+<h1>Last</h1>
+<mat-divider></mat-divider>
+<h2>Operation Last</h2>
+<h3>Emit and complete, then get the value </h3>
+<mat-divider></mat-divider>
+<app-init-button (onClickButton)="onClickButton()"></app-init-button>
+<mat-divider></mat-divider>
+
+<div class="compare">
+  <div>
+    <h2>Observable emits data</h2>
+    <ng-container *ngFor="let value of initialData">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+
+  <div>
+    <h2>Observer receives data</h2>
+    <ng-container *ngFor="let value of data">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+</div>
