@@ -1,6 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { CombineLatestOperatorComponent } from './components/operators/combination/combine-latest-operator/combine-latest-operator.component';
+import { ConcatAllOperatorComponent } from './components/operators/combination/concat-all-operator/concat-all-operator.component';
+import { ConcatOperatorComponent } from './components/operators/combination/concat-operator/concat-operator.component';
+import { ForkOperatorComponent } from './components/operators/combination/fork-operator/fork-operator.component';
+import { MergeAllOperatorComponent } from './components/operators/combination/merge-all-operator/merge-all-operator.component';
+import { MergeOperatorComponent } from './components/operators/combination/merge-operator/merge-operator.component';
+import { SwitchAllOperatorComponent } from './components/operators/combination/switch-all-operator/switch-all-operator.component';
 import { EmptyOperatorComponent } from './components/operators/creational/empty-operator/empty-operator.component';
 import { FromEventOperatorComponent } from './components/operators/creational/from-event-operator/from-event-operator.component';
 import { FromOperatorComponent } from './components/operators/creational/from-operator/from-operator.component';
@@ -46,6 +53,14 @@ const routes: Routes = [
   { path: 'last', component: LastOperatorComponent },
   { path: 'take', component: TakeOperatorComponent },
   { path: 'throttleTime', component: ThrottleTimeOperatorComponent },
+
+  { path: 'concat', component: ConcatOperatorComponent },
+  { path: 'concatAll', component: ConcatAllOperatorComponent },
+  { path: 'combineLatest', component: CombineLatestOperatorComponent },
+  { path: 'forkJoin', component: ForkOperatorComponent },
+  { path: 'merge', component: MergeOperatorComponent },
+  { path: 'mergeAll', component: MergeAllOperatorComponent },
+  { path: 'switchAll', component: SwitchAllOperatorComponent },
 
   { path: 'tap', component: TapOperatorComponent }
 ]

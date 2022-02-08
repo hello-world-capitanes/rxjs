@@ -32,6 +32,13 @@ import { FirstOperatorComponent } from './components/operators/filtering/first-o
 import { LastOperatorComponent } from './components/operators/filtering/last-operator/last-operator.component';
 import { TakeOperatorComponent } from './components/operators/filtering/take-operator/take-operator.component';
 import { ThrottleTimeOperatorComponent } from './components/operators/filtering/throttle-time-operator/throttle-time-operator.component';
+import { ConcatOperatorComponent } from './components/operators/combination/concat-operator/concat-operator.component';
+import { ConcatAllOperatorComponent } from './components/operators/combination/concat-all-operator/concat-all-operator.component';
+import { CombineLatestOperatorComponent } from './components/operators/combination/combine-latest-operator/combine-latest-operator.component';
+import { ForkOperatorComponent } from './components/operators/combination/fork-operator/fork-operator.component';
+import { MergeOperatorComponent } from './components/operators/combination/merge-operator/merge-operator.component';
+import { MergeAllOperatorComponent } from './components/operators/combination/merge-all-operator/merge-all-operator.component';
+import { SwitchAllOperatorComponent } from './components/operators/combination/switch-all-operator/switch-all-operator.component';
 
 
 
@@ -60,6 +67,13 @@ import { ThrottleTimeOperatorComponent } from './components/operators/filtering/
     LastOperatorComponent,
     TakeOperatorComponent,
     ThrottleTimeOperatorComponent,
+    ConcatOperatorComponent,
+    ConcatAllOperatorComponent,
+    CombineLatestOperatorComponent,
+    ForkOperatorComponent,
+    MergeOperatorComponent,
+    MergeAllOperatorComponent,
+    SwitchAllOperatorComponent,
   ],
   imports: [
     BrowserModule,

@@ -44,7 +44,15 @@ export class MenuService {
 
 
     ];
-    const combinacion = [new MenuItem('concatAll', '/concatAll')];
+    const combinacion = [
+      new MenuItem('concat', '/concat'),
+      new MenuItem('concatAll', '/concatAll'),
+      new MenuItem('combineLatest', '/combineLatest'),
+      new MenuItem('forkJoin', '/forkJoin'),
+      new MenuItem('merge', '/merge'),
+      new MenuItem('mergeAll', '/mergeAll'),
+      new MenuItem('switchAll', '/switchAll'),
+    ]
     const gestionErrores = [new MenuItem('catchError', '/catchError')];
     const difusion = [new MenuItem('multicast', '/multicast')];
     const operacionales = [new MenuItem('tap', '/tap')];

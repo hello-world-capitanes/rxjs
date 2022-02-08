@@ -1,0 +1,34 @@
+<h1>forkJoin</h1>
+<mat-divider></mat-divider>
+<h2>Operation forkJoin</h2>
+<h3></h3>
+<mat-divider></mat-divider>
+<app-init-button (onClickButton)="onClickButton()"></app-init-button>
+<mat-divider></mat-divider>
+<mat-form-field class="example" appearance="outline">
+  <mat-label>Write something</mat-label>
+  <input matInput [formControl]="formControl">
+</mat-form-field>
+<mat-form-field class="example" appearance="outline">
+  <mat-label>Write something more</mat-label>
+  <input matInput [formControl]="formControlMore">
+</mat-form-field>
+<app-init-button (onClickButton)="onClickFinishOne()" tittle="Complete one"></app-init-button>
+<app-init-button (onClickButton)="onClickFinishTwo()" tittle="Complete two"></app-init-button>
+
+
+<div class="compare">
+  <div>
+    <h2>Observable emits data</h2>
+    <ng-container *ngFor="let value of initialData">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+
+  <div>
+    <h2>Observer receives data</h2>
+    <ng-container *ngFor="let value of data">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+</div>

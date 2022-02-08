@@ -1,0 +1,26 @@
+<h1>Concat All</h1>
+<mat-divider></mat-divider>
+<h2>Operation concat All</h2>
+<h3></h3>
+<mat-divider></mat-divider>
+<app-init-button (onClickButton)="onClickButton()"></app-init-button>
+<mat-divider></mat-divider>
+
+<div class="compare">
+  <div>
+    <h2>Observable emits data</h2>
+    <ng-container *ngFor="let value of initialData">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+
+  <div>
+    <h2>Observer receives data</h2>
+    <ng-container *ngFor="let value of data">
+      <h3>{{ value }}</h3>
+    </ng-container>
+  </div>
+</div>
+
+<mat-divider></mat-divider>
+<h2>¿Cuál es la diferencia con concat?</h2>
