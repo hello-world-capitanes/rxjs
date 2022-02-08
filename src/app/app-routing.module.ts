@@ -5,6 +5,7 @@ import { EmptyOperatorComponent } from './components/operators/creational/empty-
 import { FromEventOperatorComponent } from './components/operators/creational/from-event-operator/from-event-operator.component';
 import { FromOperatorComponent } from './components/operators/creational/from-operator/from-operator.component';
 import { OfOperatorComponent } from './components/operators/creational/of-operator/of-operator.component';
+import { DebounceTimeOperatorComponent } from './components/operators/filtering/debounce-time-operator/debounce-time-operator.component';
 import { DistinctOperatorComponent } from './components/operators/filtering/distinct-operator/distinct-operator.component';
 import { FilterOperatorComponent } from './components/operators/filtering/filter-operator/filter-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
@@ -36,7 +37,11 @@ const routes: Routes = [
 
 
   { path: 'filter', component: FilterOperatorComponent },
+  { path: 'debounceTime', component: DebounceTimeOperatorComponent },
   { path: 'distinct', component: DistinctOperatorComponent },
+
+
+
   { path: 'tap', component: TapOperatorComponent }
 ]
 
