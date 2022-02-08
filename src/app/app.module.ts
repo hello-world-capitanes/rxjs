@@ -35,6 +35,7 @@ import { ThrottleTimeOperatorComponent } from './components/operators/filtering/
 import { ConcatOperatorComponent } from './components/operators/combination/concat-operator/concat-operator.component';
 import { ConcatAllOperatorComponent } from './components/operators/combination/concat-all-operator/concat-all-operator.component';
 import { CombineLatestOperatorComponent } from './components/operators/combination/combine-latest-operator/combine-latest-operator.component';
+import { ForkOperatorComponent } from './components/operators/combination/fork-operator/fork-operator.component';
 
 
 
@@ -66,6 +67,7 @@ import { CombineLatestOperatorComponent } from './components/operators/combinati
     ConcatOperatorComponent,
     ConcatAllOperatorComponent,
     CombineLatestOperatorComponent,
+    ForkOperatorComponent,
   ],
   imports: [
     BrowserModule,
