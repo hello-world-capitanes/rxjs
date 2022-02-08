@@ -33,8 +33,16 @@ export class MenuService {
     ];
 
     const filtrado = [
+
       new MenuItem('filter', '/filter'),
-      new MenuItem('distinct', '/distinct')
+      new MenuItem('debounceTime', '/debounceTime'),
+      new MenuItem('distinct', '/distinct'),
+      new MenuItem('first', '/first'),
+      new MenuItem('last', '/last'),
+      new MenuItem('take', '/take'),
+      new MenuItem('throttleTime', '/throttleTime'),
+
+
     ];
     const combinacion = [new MenuItem('concatAll', '/concatAll')];
     const gestionErrores = [new MenuItem('catchError', '/catchError')];
