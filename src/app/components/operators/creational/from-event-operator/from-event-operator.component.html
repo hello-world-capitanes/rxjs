@@ -1,0 +1,27 @@
+<h1>From Event</h1>
+<mat-divider></mat-divider>
+
+
+<h2>Observable</h2>
+<ng-container>
+  <h3>Emit when user click</h3>
+</ng-container>
+
+<h2>Observer recives data</h2>
+<ng-container>
+  <h3>Avísame cuando hagas click: {{this.data > 0 ? 'Se han hecho ' + this.data + ' clicks': null}}</h3>
+</ng-container>
+
+<mat-divider></mat-divider>
+
+<app-init-button (onClickButton)="onClickButton()"></app-init-button>
+
+<app-init-button (onClickButton)="onClickUnsubcribe()" tittle="Desuscripción"></app-init-button>
+
+
+<mat-divider></mat-divider>
+<h2>Important</h2>
+<h3>Abre la consola ¿Qué ocurre cuando vas a otra sección y haces click?</h3>
+<h3>Abre la consola ¿Qué ocurre si salimos una vez sin hacer unsubscribe y volvemos a entrar y hacemos unsubscribe?</h3>
+<h3>¿Qué deberías hacer para solucionar este comportamiento?</h3>
+
