@@ -30,6 +30,7 @@ import { SwitchMapOperatorComponent } from './components/operators/transformatio
 import { SharedModule } from './shared/shared.module';
 import { FirstOperatorComponent } from './components/operators/filtering/first-operator/first-operator.component';
 import { LastOperatorComponent } from './components/operators/filtering/last-operator/last-operator.component';
+import { TakeOperatorComponent } from './components/operators/filtering/take-operator/take-operator.component';
 
 
 
@@ -56,6 +57,7 @@ import { LastOperatorComponent } from './components/operators/filtering/last-ope
     DebounceTimeOperatorComponent,
     FirstOperatorComponent,
     LastOperatorComponent,
+    TakeOperatorComponent,
   ],
   imports: [
     BrowserModule,

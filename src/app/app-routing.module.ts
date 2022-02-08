@@ -10,6 +10,7 @@ import { DistinctOperatorComponent } from './components/operators/filtering/dist
 import { FilterOperatorComponent } from './components/operators/filtering/filter-operator/filter-operator.component';
 import { FirstOperatorComponent } from './components/operators/filtering/first-operator/first-operator.component';
 import { LastOperatorComponent } from './components/operators/filtering/last-operator/last-operator.component';
+import { TakeOperatorComponent } from './components/operators/filtering/take-operator/take-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
 import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
 import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
@@ -43,6 +44,7 @@ const routes: Routes = [
   { path: 'distinct', component: DistinctOperatorComponent },
   { path: 'first', component: FirstOperatorComponent },
   { path: 'last', component: LastOperatorComponent },
+  { path: 'take', component: TakeOperatorComponent },
 
 
 
