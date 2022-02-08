@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { CombineLatestOperatorComponent } from './components/operators/combination/combine-latest-operator/combine-latest-operator.component';
 import { ConcatAllOperatorComponent } from './components/operators/combination/concat-all-operator/concat-all-operator.component';
 import { ConcatOperatorComponent } from './components/operators/combination/concat-operator/concat-operator.component';
 import { EmptyOperatorComponent } from './components/operators/creational/empty-operator/empty-operator.component';
@@ -51,6 +52,7 @@ const routes: Routes = [
 
   { path: 'concat', component: ConcatOperatorComponent },
   { path: 'concatAll', component: ConcatAllOperatorComponent },
+  { path: 'combineLatest', component: CombineLatestOperatorComponent },
 
   { path: 'tap', component: TapOperatorComponent }
 ]

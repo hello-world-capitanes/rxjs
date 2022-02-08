@@ -10,7 +10,6 @@ import { debounceTime, Subscription, tap } from 'rxjs';
 export class DebounceTimeOperatorComponent implements OnInit, OnDestroy {
   data: string[] = []
   initialData: string[] = []
-  counter = 0
   subscription!: Subscription
   formControl = new FormControl('', [])
 
