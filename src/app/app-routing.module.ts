@@ -5,6 +5,7 @@ import { CombineLatestOperatorComponent } from './components/operators/combinati
 import { ConcatAllOperatorComponent } from './components/operators/combination/concat-all-operator/concat-all-operator.component';
 import { ConcatOperatorComponent } from './components/operators/combination/concat-operator/concat-operator.component';
 import { ForkOperatorComponent } from './components/operators/combination/fork-operator/fork-operator.component';
+import { MergeOperatorComponent } from './components/operators/combination/merge-operator/merge-operator.component';
 import { EmptyOperatorComponent } from './components/operators/creational/empty-operator/empty-operator.component';
 import { FromEventOperatorComponent } from './components/operators/creational/from-event-operator/from-event-operator.component';
 import { FromOperatorComponent } from './components/operators/creational/from-operator/from-operator.component';
@@ -55,6 +56,7 @@ const routes: Routes = [
   { path: 'concatAll', component: ConcatAllOperatorComponent },
   { path: 'combineLatest', component: CombineLatestOperatorComponent },
   { path: 'forkJoin', component: ForkOperatorComponent },
+  { path: 'merge', component: MergeOperatorComponent },
 
   { path: 'tap', component: TapOperatorComponent }
 ]
