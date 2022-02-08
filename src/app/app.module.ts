@@ -33,6 +33,7 @@ import { LastOperatorComponent } from './components/operators/filtering/last-ope
 import { TakeOperatorComponent } from './components/operators/filtering/take-operator/take-operator.component';
 import { ThrottleTimeOperatorComponent } from './components/operators/filtering/throttle-time-operator/throttle-time-operator.component';
 import { ConcatOperatorComponent } from './components/operators/combination/concat-operator/concat-operator.component';
+import { ConcatAllOperatorComponent } from './components/operators/combination/concat-all-operator/concat-all-operator.component';
 
 
 
@@ -62,6 +63,7 @@ import { ConcatOperatorComponent } from './components/operators/combination/conc
     TakeOperatorComponent,
     ThrottleTimeOperatorComponent,
     ConcatOperatorComponent,
+    ConcatAllOperatorComponent,
   ],
   imports: [
     BrowserModule,
