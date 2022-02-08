@@ -15,9 +15,16 @@ import { FromOperatorComponent } from './components/operators/creational/from-op
 import { OfOperatorComponent } from './components/operators/creational/of-operator/of-operator.component';
 import { DistinctOperatorComponent } from './components/operators/distinct-operator/distinct-operator.component';
 import { FilterOperatorComponent } from './components/operators/filter-operator/filter-operator.component';
-import { MapOperatorComponent } from './components/operators/map-operator/map-operator.component';
 import { TapOperatorComponent } from './components/operators/tap-operator/tap-operator.component';
+import { MapOperatorComponent } from './components/operators/transformation/map-operator/map-operator.component';
 import { SharedModule } from './shared/shared.module';
+import { MapToOperatorComponent } from './components/operators/transformation/map-to-operator/map-to-operator.component';
+import { BufferOperatorComponent } from './components/operators/transformation/buffer-operator/buffer-operator.component';
+import { ConcatMapOperatorComponent } from './components/operators/transformation/concat-map-operator/concat-map-operator.component';
+import { MergeMapOperatorComponent } from './components/operators/transformation/merge-map-operator/merge-map-operator.component';
+import { SwitchMapOperatorComponent } from './components/operators/transformation/switch-map-operator/switch-map-operator.component';
+import { ScanOperatorComponent } from './components/operators/transformation/scan-operator/scan-operator.component';
+import { PluckOperatorComponent } from './components/operators/transformation/pluck-operator/pluck-operator.component';
 
 
 
@@ -34,6 +41,13 @@ import { SharedModule } from './shared/shared.module';
     OfOperatorComponent,
     EmptyOperatorComponent,
     FromEventOperatorComponent,
+    MapToOperatorComponent,
+    BufferOperatorComponent,
+    ConcatMapOperatorComponent,
+    MergeMapOperatorComponent,
+    SwitchMapOperatorComponent,
+    ScanOperatorComponent,
+    PluckOperatorComponent,
   ],
   imports: [
     BrowserModule,
